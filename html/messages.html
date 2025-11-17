@@ -1,30 +1,79 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="../image/Icons/Favicon_do_Rato.png"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="../styles/main.css" />
-    <script src="../js/main.js" type="module" defer></script>
-    <title>TôNoPonto</title>
-    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
-  </head>
 
-  <body>
-    <main>
-      <section>
-        <!-- Aqui ficará o código -->
-      </section>
-    </main>
-    <nav id="nav-bar"></nav>
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <script>
-      lucide.createIcons();
-    </script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../image/Icons/Favicon_do_Rato.png" type="image/x-icon" />
+  <link rel="stylesheet" href="../styles/main.css" />
+  <script src="../js/main.js" type="module" defer></script>
+  <title>TôNoPonto</title>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="../styles/messages.css">
+</head>
+<body>
+  <main>
+    <section>
+      <div id="Mensagem">
+        <h3 id="texto">Mensagens</h3>
+      </div>
+      <!--------------------------------------------------------------------------->
+      <div class="chats">
+        <a href="chat_A" class="chat">
+          <!--  -->
+          <div class="Imagem">
+            <img src="../image/Icons/Motorista_A.png" alt="Icone do Motorista">
+            <span id="notificacoes">1</span>
+          </div>
+          <!--  -->
+          <div class="test">
+            <div class="nome">
+              <P id="nomeMotorista">Waldir Braz</P>
+              <span id="hora">21:08</span>
+            </div>
+            <!--  -->
+            <div class="pin">
+              <img src="../image/Icons/pin.png" alt="">
+              <p id="infoDestino">UFCG ➜ UNIFACISA</p>
+            </div>
+            <p id="infoMensagem">Chego em 15 minutos</p>
+          </div>
+        </a>
+        <!------------------------------------------------------------------------->
+        <a href="Chat_B" class="chat">
+          <!--  -->
+          <div class="Imagem">
+            <img src="../image/Icons/Motorista_B.png" alt="Icone do Motorista">
+            <span id="notificacoes">2</span>
+          </div>
+          <!--  -->
+          <div class="test">
+            <div class="nome">
+              <P id="nomeMotorista">William Augusto</P>
+              <span id="hora">Ontem</span>
+
+            </div>
+            <!--  -->
+            <div class="pin">
+              <img src="../image/Icons/pin.png" alt="">
+              <p id="info">11 de Outubro ➜ UNIFACISA</p>
+            </div>
+            <!--  -->
+            <p id="info2">Estou aqui!</p>
+          </div>
+          <!--  -->
+        </a>
+      </div>
+      <!------------------------------------------------------------------------->
+      <!-- Aqui ficará o código -->
+    </section>
+  </main>
+  <nav id="nav-bar"></nav>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+
 </html>
