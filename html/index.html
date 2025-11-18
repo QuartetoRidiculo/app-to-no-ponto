@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Tô no Ponto</title>
     <link rel="stylesheet" href="../styles/main.css" />
     <link rel="stylesheet" href="../styles/home.css" />
     <script src="../js/main.js" type="module" defer></script>
@@ -12,9 +12,73 @@
     <script src="https://unpkg.com/lucide@latest"></script>
   </head>
   <body>
+    <header>
+      <div class="profile-header">
+        <h1>Tô no Ponto</h1>
+        <a href="./account.html">
+          <i class="user-icon" data-lucide="user"></i>
+        </a>
+      </div>
+      <div class="search-container">
+        <i class="search-icon" data-lucide="search"></i>
+        <input type="text" placeholder="Buscar rotas ou destinos" />
+      </div>
+    </header>
     <main>
+      <div id="map">
+        <div>
+          <p>Mapa interativo · Corridas em tempo real</p>
+        </div>
+      </div>
+      <div class="content">
+        <section>
+          <h3>Buscas recentes</h3>
+          <div class="recent-carousels">
+            <div>
+              <i class="pin-icon" data-lucide="clock"></i>
+              <span>Campus Central</span>
+            </div>
+            <div>
+              <i class="pin-icon" data-lucide="clock"></i>
+              <span>Centro da Cidade</span>
+            </div>
+            <div>
+              <i class="pin-icon" data-lucide="clock"></i>
+              <span>Bairro Universitário</span>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="favorite-header">
+            <h3>Favoritos</h3>
+            <button>
+              <i class="plus-icon" data-lucide="plus"></i>
+              Inserir destino
+            </button>
+          </div>
+          <div class="favorite-container">
+            <div class="favorite-card">
+              <button>
+                <i class="star-icon" data-lucide="star"></i>
+              </button>
+              <span>Campus Central → Centro</span>
+              <a>
+                <i class="arrow-icon" data-lucide="arrow-right"></i>
+              </a>
+            </div>
+            <div class="favorite-card">
+              <button>
+                <i class="star-icon" data-lucide="star"></i>
+              </button>
+              <span>Shopping Center</span>
+              <a>
+                <i class="arrow-icon" data-lucide="arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
-
     <nav id="nav-bar"></nav>
 
     <script src="https://unpkg.com/lucide@latest"></script>
