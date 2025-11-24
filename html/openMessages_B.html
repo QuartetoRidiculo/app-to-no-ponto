@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../image/Icons/Favicon_do_Rato.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <script src="../js/main.js" type="module" defer></script>
+    <link rel="stylesheet" href="../styles/openMessages.css">
+    <title>TôNoPonto</title>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <main>
+        <section>
+            <header class="header">
+                <div class="titulo">
+                    <a class="return" href="./messages.html"><i data-lucide="arrow-left"></i></a>
+                    <img src="../image/Icons/Motorista_B.png" alt="Icone do Motorista">
+                    <div>
+                        <P>William Augusto</P>
+                        <p>ID 0002</p>
+                    </div>
+                </div>
+                <div class="pinDestino">
+                    <i class="pinIcon" data-lucide="map-pin"></i>
+                    <p>UFCG ➜ UNIFACISA</p>
+                </div>
+            </header>
+            <!--  -->
+            <div class="chat">
+                <div class="mesagensMot">
+                    <div class="imagem">
+                        <img id="icones" src="../image/Icons/Motorista_B.png" alt="Icone do Motorista">
+                    </div>
+                    <div class="bate-papo">
+                        <p>Saindo da 11 de Outubro agora, chego aí na facisa em uns 7 minutos.</p>
+                        <span id="hora">21:50</span>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="mesagensEstu">
+                    <div class="bate-papo">
+                        <p>Ok, vou ficar aguardando aqui dentro.</p>
+                        <span id="hora">21:52</span>
+                    </div>
+                    <div>
+                        <img  class="imagem" id="icones" src="../image/Icons/Icon_Estudante.png" alt="">
+                    </div>
+                </div>
+                <!--  -->
+                <div class="mesagensMot">
+                    <div>
+                        <img  class="imagem" id="icones" src="../image/Icons/Motorista_B.png" alt="Icone do Motorista">
+                    </div>
+                    <div class="bate-papo">
+                        <p>Tô aqui fora, pode vir.</p>
+                        <span id="hora">22:00</span>
+                    </div>
+                </div>
+                <!--  -->
+            </div>
+            <div class="button">
+                <input id="input" placeholder="Insira sua mensagem" type="text">
+                <button id="send"><i data-lucide="send"></i></button>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
