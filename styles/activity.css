@@ -1,5 +1,5 @@
 #cabecalho{
-    color: #0F172A;
+    color: #ffffff;
     background-color: #2563EB;
     padding-bottom: 14px;
     margin-bottom: 30px;
@@ -16,7 +16,7 @@
 
 .corrida{
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 25px;
     background-color: #ffffff;
     padding: 15px; 
     border-radius: 15px;
@@ -88,7 +88,7 @@ hr{
 }
 
 .infoMotorista{
-    width: 50%;
+    width: auto;
     margin: 20px auto;
     display: flex;
     background-color: #EFF6FF;
