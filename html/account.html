@@ -1,3 +1,12 @@
+<!---#2563EB → Primária (botões, ícones ativos, marca principal)
+#1E40AF → Secundária (hover, foco, estados ativos)
+#EFF6FF → Fundo (background geral, cards, áreas claras)
+#0F172A → Texto (principal, títulos, contraste alto)
+#3B82F6 → Acento (links, detalhes chamativos, highlights)
+#CBD5E1 → Neutra (bordas, divisórias, elementos sutis)-->
+
+
+
 <!DOCTYPE html>
 <html lang="PT-BR">
   <head>
@@ -9,23 +18,162 @@
       type="image/x-icon"
     />
     <title>TôNoPonto</title>
+    <link rel="stylesheet" href="../styles/account.css">
     <link rel="stylesheet" href="../styles/main.css" />
     <script src="../js/main.js" type="module" defer></script>
 
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
   </head>
-
+<header></header>
   <body>
     <main>
-      <section>
-        <!-- Aqui ficará o código -->
+        <section>
+
+
+          <div class="user">
+            <div class="foto-user">
+                <img src="../image/Icons/Icon_Bonequinho_Bit.png" alt="" /> 
+            </div>
+            Foto de perfil
+          </div>
+
+
+          <div class="infop">
+            <p class="info-title">Informações Pessoais</p>
+            <div class="form-grup">
+              <label for="Nome">Nome Completo:</label>
+              <input type="text" value="Maria Silva" id="Nome" />
+            </div>
+            <div class="form-grup">
+              <label for="CPF">CPF:</label>
+              <input type="text" value="123.456.789-00" id="CPF" />
+            </div>
+            <div class="form-grup">
+              <label for="e-mail">E-mail:</label>
+              <input type="text" value="maria.silva@email.com" id="e-mail" />
+            </div>
+            <div class="form-grup">
+              <label for="telefone">Telefone:</label>
+              <input type="text" value="(11) 98765-4321" id="telefone" />
+            </div>
+            <div class="form-grup">
+              <label for="contaID">ID da Conta:</label>
+              <input type="text" value="ACC123456" id="contaID" />
+            </div>
+            <div class="form-grup">
+              <label for="Genero">Gênero:</label>
+              <input type="text" value="Feminino" id="Genero" />
+            </div>
+          </div>
+
+          <div class="confi-notif">
+            <h2>Notificações</h2>
+
+            <div>
+
+              <div class="texto-confi">
+                
+                
+                <div class="noti">
+                  <i class="icon" data-lucide="bell"></i>
+                  <div class="row">
+                    <h4>Notificações push</h4>
+                    <p>Receber alertas de corridas</p>
+                  </div>
+                </div>
+
+                <div class="checkbox">
+                  <label class="switch">
+                      <input type="checkbox">
+                      <span class="slider"></span>
+                  </label>
+                </div>
+
+              </div>
+
+
+            </div>
+      
+          </div>
+
+          <div class="confi">
+            <h2>Acessibilidade</h2>
+            <div>
+              <div class="texto-confi">
+                <div class="acessi">
+                  <i class="icon" data-lucide="volume-2"></i>
+                  <div class="row">
+                    <h4>Leitura de voz</h4>
+                    <p>Ativar narração</p>
+                  </div>
+                </div>
+
+                  <div class="checkbox">
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider"></span>
+                    </label>
+
+                    
+                  </div>
+              </div>
+
+            </div>
+            <div>
+      
+      
+              <div>
+                <div class="texto-confi">
+                  
+                  <div class="acessi">
+                    <i class="icon" data-lucide="eclipse"></i>
+                    
+                    <div class="row">
+                      <h4>Alto contraste</h4>
+                      <p>Melhorar legibilidade</p>
+                    </div>
+                  </div>
+                    <div class="checkbox">
+                      <label class="switch">
+                          <input type="checkbox">
+                          <span class="slider"></span>
+                      </label>
+                    </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+          <div class="confi-idioma">
+            <div class="text">
+              <h4>Idioma</h4>
+              <i class="icon" data-lucide="globe"></i>
+            </div>
+            
+            
+            
+            <div class="box-idioma">
+                  <select name="" id="">
+                    <option value="">Português</option>
+                    <option value="">English</option>
+                    <option value="">Español</option>
+      
+                  </select>
+                </div>
+            </div>
+          </div>
+          <div>
+              <button class="button-att">Atualizar dados</button>
+          </div>
+          <p>Versão 1.0.0</p>
       </section>
+      <div id="nav-bar"></div>
+      <script src="https://unpkg.com/lucide@latest"></script>
+      <script>
+        lucide.createIcons();
+      </script>
     </main>
-    <nav id="nav-bar"></nav>
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <script>
-      lucide.createIcons();
-    </script>
   </body>
 </html>
