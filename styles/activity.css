@@ -3,6 +3,9 @@
     background-color: #2563EB;
     padding-bottom: 14px;
     margin-bottom: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 #cabecalho h2{
