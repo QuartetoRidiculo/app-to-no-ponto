@@ -6,83 +6,93 @@
 #CBD5E1 → Neutra (bordas, divisórias, elementos sutis) */
 
 header {
-    background-color: #2563EB;
-    color: white;
-    height: 160px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: #2563eb;
+  color: white;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 main {
-   min-height: calc(100vh - 212px);
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+  min-height: calc(100vh - 212px);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .hero {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 h1 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 h2 {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    background-color: white;
-    padding: 16px;
-    border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: white;
+  padding: 16px;
+  border-radius: 16px;
 }
 
 form div {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 label {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 input {
-    padding: 8px;
-    background-color: transparent;
-    border-radius: 8px;
-    border: 2px solid #f2f2f2;
+  padding: 8px;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 2px solid #f2f2f2;
 }
 
 form a {
-    background-color: #2563EB;
-    color: white;
-    padding: 12px;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
+  text-decoration: none;
+  background-color: #2563eb;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
 }
 
 form p {
-    text-align: center;
-    font-size: 14px;
+  color: #3b82f6;
+  text-align: center;
+  font-size: 14px;
+  transition-duration: 0.2s;
+  cursor: pointer;
 }
+
+form p:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
 form span {
-    text-align: center;
-    font-size: 14px;
+  text-align: center;
+  font-size: 14px;
 }
 
 .version {
-    text-align: center;
-    font-size: 12px;
+  text-align: center;
+  font-size: 12px;
 }
