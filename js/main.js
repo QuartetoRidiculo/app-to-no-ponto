@@ -1,5 +1,5 @@
 const links = [
-  { title: "Início", href: "index.html", icon: "house" },
+  { title: "Início", href: "home.html", icon: "house" },
   { title: "Atividade", href: "activity.html", icon: "clock" },
   { title: "Mensagens", href: "messages.html", icon: "message-circle" },
   { title: "Conta", href: "account.html", icon: "user" },
