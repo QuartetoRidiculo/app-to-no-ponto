@@ -135,6 +135,10 @@ h3 {
   cursor: pointer;
 }
 
+.favorite-header button:hover {
+  text-decoration: underline;
+}
+
 .plus-icon {
   width: 16px;
 }
@@ -147,6 +151,7 @@ h3 {
 }
 
 .favorite-card {
+  color: #0F172A;
   text-decoration: none;
   background-color: white;
   display: flex;

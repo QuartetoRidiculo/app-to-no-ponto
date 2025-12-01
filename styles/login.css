@@ -22,6 +22,10 @@ main {
   gap: 16px;
 }
 
+p {
+  color: gray;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -87,9 +91,20 @@ form p:hover {
   text-decoration: underline;
 }
 
-form span {
-  text-align: center;
+.support-div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: gray;
   font-size: 14px;
+}
+
+.info-icon {
+  width: 16px;
+  height: 16px;
 }
 
 .version {

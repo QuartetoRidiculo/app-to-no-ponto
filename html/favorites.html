@@ -1,109 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../image/Icons/Favicon_do_Rato.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../styles/favorites.css" />
+    <title>TôNoPonto</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+    <script src="../js/main.js" type="module" defer></script>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" href="../image/Icons/Favicon_do_Rato.png" type="image/x-icon" />
-  <link rel="stylesheet" href="../styles/favorites.css">
-  <title>TôNoPonto</title>
-  <link rel="stylesheet" href="../styles/main.css" />
-  <script src="../js/main.js" type="module" defer></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
 
-  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
-  <script src="https://unpkg.com/lucide@latest"></script>
-</head>
-
-<body>
-  <main>
-    <section>
-
-      <header>
-        <div class=" perfil">
-
-          <h2 class="title">
-            Tô no Ponto
-          </h2>
-
-          <a href="./account.html" class="conta">
-            <i data-lucide="user-round"></i>
-          </a>
-
-        </div>
-
-        <div class="Buscar">
-          <input class="Buscar" placeholder="Buscar rotas ou destinos" type="text">
-        </div>
-
-
-      </header>
-      <a href="index.html" class="retorno">
-        <i class="seta" data-lucide="arrow-left"></i>
-        <h5>
-          Voltar ao mapa
-        </h5>
-      </a>
-      <h3 class="subtitle">
-        Corridas disponíveis
-      </h3>
-
-      <div class="container">
-
-        <div class="dados">
-          <div class="geralinforma">
-            <div class="fotouser">
-              <img src="../image/Icons//Icon_Informacoes_Motorista_Bit.png" alt=" photo do usuario">
-            </div>
-            <div class="informa">
-              <p>Usuario: João Silva</p>
-              <p>Veiculo: Van Mercedes Sprinter</p>
-              <p>Placa : aksakio</p>
-              <p>Local de partida: Juripiranga Pb</p>
-              <p>Destino: Campina Grande Pb</p>
-            </div>
+  <body>
+    <main>
+      <section>
+        <header>
+          <div class="profile-header">
+            <h1>Tô no Ponto</h1>
+            <a href="./account.html">
+              <i class="user-icon" data-lucide="user"></i>
+            </a>
           </div>
-          <button class="select">Selecionar</button>
-        </div>
-
-        <div class="dados">
-          <div class="geralinforma">
-            <div class="fotouser">
-              <img src="../image/Icons//Icon_Informacoes_Motorista_Bit.png" alt=" photo do usuario">
-            </div>
-            <div class="informa">
-              <p>Usuario: Luan Silveira</p>
-              <p>Veiculo: Van Ducato</p>
-              <p>Placa : Aksa2030</p>
-              <p>Local de partida: Sape Pb</p>
-              <p>Destino: Campina Grande Pb</p>
-            </div>
+          <div class="search-container">
+            <i class="search-icon" data-lucide="search"></i>
+            <input type="text" placeholder="Buscar rotas ou destinos" />
           </div>
-          <button class="select">Selecionar</button>
-        </div>
-        <div class="dados">
-          <div class="geralinforma">
-            <div class="fotouser">
-              <img src="../image/Icons//Icon_Informacoes_Motorista_Bit.png" alt=" photo do usuario">
+        </header>
+        <a href="index.html" class="retorno">
+          <i class="seta" data-lucide="arrow-left"></i>
+          <h5>Voltar ao mapa</h5>
+        </a>
+        <h3 class="subtitle">Corridas disponíveis</h3>
+
+        <div class="container">
+          <div class="dados">
+            <div class="geralinforma">
+              <div class="fotouser">
+                <img
+                  src="../image/Icons//Icon_Informacoes_Motorista_Bit.png"
+                  alt=" photo do usuario"
+                />
+              </div>
+              <div class="informa">
+                <p>Usuario: João Silva</p>
+                <p>Veiculo: Van Mercedes Sprinter</p>
+                <p>Placa : aksakio</p>
+                <p>Local de partida: Juripiranga Pb</p>
+                <p>Destino: Campina Grande Pb</p>
+              </div>
             </div>
-            <div class="informa">
-              <p>Usuario: José Silveira </p>
-              <p>Veiculo: Van spin </p>
-              <p>Placa : Juc1030</p>
-              <p>Local de partida: Patos Pb</p>
-              <p>Destino: Campina Grande Pb</p>
-            </div>
+            <button class="select">Selecionar</button>
           </div>
-          <button class="select">Selecionar</button>
+
+          <div class="dados">
+            <div class="geralinforma">
+              <div class="fotouser">
+                <img
+                  src="../image/Icons//Icon_Informacoes_Motorista_Bit.png"
+                  alt=" photo do usuario"
+                />
+              </div>
+              <div class="informa">
+                <p>Usuario: Luan Silveira</p>
+                <p>Veiculo: Van Ducato</p>
+                <p>Placa : Aksa2030</p>
+                <p>Local de partida: Sape Pb</p>
+                <p>Destino: Campina Grande Pb</p>
+              </div>
+            </div>
+            <button class="select">Selecionar</button>
+          </div>
+          <div class="dados">
+            <div class="geralinforma">
+              <div class="fotouser">
+                <img
+                  src="../image/Icons//Icon_Informacoes_Motorista_Bit.png"
+                  alt=" photo do usuario"
+                />
+              </div>
+              <div class="informa">
+                <p>Usuario: José Silveira</p>
+                <p>Veiculo: Van spin</p>
+                <p>Placa : Juc1030</p>
+                <p>Local de partida: Patos Pb</p>
+                <p>Destino: Campina Grande Pb</p>
+              </div>
+            </div>
+            <button class="select">Selecionar</button>
+          </div>
         </div>
-      </div>
-
-    </section>
-  </main>
-  <nav id="nav-bar"></nav>
-  <script src="https://unpkg.com/lucide@latest"></script>
-  <script>
-    lucide.createIcons();
-  </script>
-</body>
-
+      </section>
+    </main>
+    <nav id="nav-bar"></nav>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
 </html>
